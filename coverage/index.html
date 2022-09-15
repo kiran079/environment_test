@@ -5,7 +5,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <script src='./assets/0.12.3/application.js' type='text/javascript'></script>
     <link href='./assets/0.12.3/application.css' media='screen, projection, print' rel='stylesheet' type='text/css' />
-    <link rel="shortcut icon" type="image/png" href="./assets/0.12.3/favicon_yellow.png" />
+    <link rel="shortcut icon" type="image/png" href="./assets/0.12.3/favicon_green.png" />
     <link rel="icon" type="image/png" href="./assets/0.12.3/favicon.png" />
   </head>
 
@@ -14,7 +14,7 @@
       <img src="./assets/0.12.3/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2022-09-09T14:47:47+00:00">2022-09-09T14:47:47+00:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2022-09-15T14:59:59+00:00">2022-09-15T14:59:59+00:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -22,15 +22,15 @@
   <h2>
     <span class="group_name">All Files</span>
     (<span class="covered_percent">
-      <span class="yellow">
-  87.04%
+      <span class="green">
+  90.34%
 </span>
 
      </span>
      covered at
      <span class="covered_strength">
        <span class="red">
-         0.9
+         0.95
        </span>
     </span> hits/line
     )
@@ -43,11 +43,11 @@
   </div>
 
   <div class="t-line-summary">
-    <b>108</b> relevant lines,
-    <span class="green"><b>94</b> lines covered</span> and
+    <b>145</b> relevant lines,
+    <span class="green"><b>131</b> lines covered</span> and
     <span class="red"><b>14</b> lines missed. </span>
-    (<span class="yellow">
-  87.04%
+    (<span class="green">
+  90.34%
 </span>
 )
   </div>
@@ -88,7 +88,7 @@
             <td class="cell--number">33</td>
             <td class="cell--number">21</td>
             <td class="cell--number">12</td>
-            <td class="cell--number">0.67</td>
+            <td class="cell--number">0.70</td>
             
           </tr>
         
@@ -128,9 +128,9 @@
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#0728546877171f8274d912723cbb2a702d016c64" class="src_link" title="app/models/book.rb">app/models/book.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">3</td>
-            <td class="cell--number">2</td>
-            <td class="cell--number">2</td>
+            <td class="cell--number">6</td>
+            <td class="cell--number">5</td>
+            <td class="cell--number">5</td>
             <td class="cell--number">0</td>
             <td class="cell--number">1.00</td>
             
@@ -293,9 +293,9 @@
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#494a25c8ac1ac5f1e69c9da9586e9a49a23cf125" class="src_link" title="config/routes.rb">config/routes.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">4</td>
-            <td class="cell--number">2</td>
-            <td class="cell--number">2</td>
+            <td class="cell--number">5</td>
+            <td class="cell--number">3</td>
+            <td class="cell--number">3</td>
             <td class="cell--number">0</td>
             <td class="cell--number">1.00</td>
             
@@ -304,9 +304,9 @@
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#3289b8186b2bb9f95429ed3025b45d95a8e09362" class="src_link" title="spec/feature/integration_spec.rb">spec/feature/integration_spec.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">12</td>
-            <td class="cell--number">8</td>
-            <td class="cell--number">8</td>
+            <td class="cell--number">21</td>
+            <td class="cell--number">17</td>
+            <td class="cell--number">17</td>
             <td class="cell--number">0</td>
             <td class="cell--number">1.00</td>
             
@@ -326,11 +326,11 @@
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#f6b1ab6d94a127d8d5906891cab840697888303d" class="src_link" title="spec/unit/unit_spec.rb">spec/unit/unit_spec.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">17</td>
-            <td class="cell--number">9</td>
-            <td class="cell--number">9</td>
+            <td class="cell--number">64</td>
+            <td class="cell--number">33</td>
+            <td class="cell--number">33</td>
             <td class="cell--number">0</td>
-            <td class="cell--number">1.11</td>
+            <td class="cell--number">1.12</td>
             
           </tr>
         
@@ -1113,8 +1113,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="63">
-            <span class="hits">1</span>
+          <li class="covered" data-hits="2" data-linenumber="63">
+            <span class="hits">2</span>
             
 
             
@@ -1174,7 +1174,7 @@
 
             
 
-            <code class="ruby">      params.require(:book).permit(:title)</code>
+            <code class="ruby">      params.require(:book).permit(:title, :author, :price, :published_date)</code>
           </li>
         </div>
       
@@ -1389,8 +1389,8 @@
     
 
     <div class="t-line-summary">
-      <b>2</b> relevant lines.
-      <span class="green"><b>2</b> lines covered</span> and
+      <b>5</b> relevant lines.
+      <span class="green"><b>5</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -1424,7 +1424,40 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="3">
+          <li class="covered" data-hits="1" data-linenumber="3">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  validates :author, presence: true</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="4">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  validates :price, presence: true</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="5">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  validates :published_date, presence: true</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="6">
             
             
 
@@ -4164,8 +4197,8 @@
     
 
     <div class="t-line-summary">
-      <b>2</b> relevant lines.
-      <span class="green"><b>2</b> lines covered</span> and
+      <b>3</b> relevant lines.
+      <span class="green"><b>3</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -4199,7 +4232,18 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="3">
+          <li class="covered" data-hits="1" data-linenumber="3">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  root &#39;books#index&#39;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="4">
             
             
 
@@ -4210,7 +4254,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="4">
+          <li class="never" data-hits="" data-linenumber="5">
             
             
 
@@ -4239,8 +4283,8 @@
     
 
     <div class="t-line-summary">
-      <b>8</b> relevant lines.
-      <span class="green"><b>8</b> lines covered</span> and
+      <b>17</b> relevant lines.
+      <span class="green"><b>17</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -4335,7 +4379,7 @@
 
             
 
-            <code class="ruby">    click_on &#39;Create Book&#39;</code>
+            <code class="ruby">    fill_in &#39;Author&#39;, with: &#39;Kiran&#39;</code>
           </li>
         </div>
       
@@ -4346,7 +4390,7 @@
 
             
 
-            <code class="ruby">    visit books_path</code>
+            <code class="ruby">    fill_in &#39;Price&#39;, with: 9.99</code>
           </li>
         </div>
       
@@ -4357,12 +4401,111 @@
 
             
 
+            <code class="ruby">    select &quot;20&quot;, :from =&gt; &quot;book_published_date_3i&quot;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="11">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    select &quot;October&quot;, :from =&gt; &quot;book_published_date_2i&quot;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="12">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    select &quot;2002&quot;, :from =&gt; &quot;book_published_date_1i&quot;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="13">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    click_on &#39;Create Book&#39;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="14">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    visit books_path</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="15">
+            <span class="hits">1</span>
+            
+
+            
+
             <code class="ruby">    expect(page).to have_content(&#39;harry potter&#39;)</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="11">
+          <li class="covered" data-hits="1" data-linenumber="16">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    click_on &#39;Show&#39;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="17">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(page).to have_content(&#39;Kiran&#39;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="18">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(page).to have_content(9.99)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="19">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(page).to have_content(&quot;2002-10-20&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="20">
             
             
 
@@ -4373,7 +4516,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="12">
+          <li class="never" data-hits="" data-linenumber="21">
             
             
 
@@ -5137,8 +5280,8 @@
     
 
     <div class="t-line-summary">
-      <b>9</b> relevant lines.
-      <span class="green"><b>9</b> lines covered</span> and
+      <b>33</b> relevant lines.
+      <span class="green"><b>33</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -5211,7 +5354,7 @@
 
             
 
-            <code class="ruby">    described_class.new(title: &#39;harry potter&#39;)</code>
+            <code class="ruby">    described_class.new(title: &#39;harry potter&#39;, author: &#39;Kiran&#39;, price: 9.99, published_date: 2007)</code>
           </li>
         </div>
       
@@ -5327,6 +5470,523 @@
       
         <div>
           <li class="never" data-hits="" data-linenumber="17">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="18">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="19">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="20">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">RSpec.describe Book, type: :model do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="21">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="22">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  subject do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="2" data-linenumber="23">
+            <span class="hits">2</span>
+            
+
+            
+
+            <code class="ruby">    described_class.new(title: &#39;harry potter&#39;, author: &#39;Kiran&#39;, price: 9.99, published_date: 2007)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="24">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="25">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="26">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  it &#39;is valid with valid author&#39; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="27">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(subject).to be_valid</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="28">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="29">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="30">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  it &#39;is not valid without a author&#39; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="31">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    subject.author = nil</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="32">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(subject).not_to be_valid</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="33">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="34">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="35">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="36">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">RSpec.describe Book, type: :model do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="37">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  subject do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="2" data-linenumber="38">
+            <span class="hits">2</span>
+            
+
+            
+
+            <code class="ruby">    described_class.new(title: &#39;harry potter&#39;, author: &#39;Kiran&#39;, price: 9.99, published_date: 2007)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="39">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="40">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="41">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  it &#39;is valid with valid price&#39; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="42">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(subject).to be_valid</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="43">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="44">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="45">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  it &#39;is not valid without a price&#39; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="46">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    subject.price = nil</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="47">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(subject).not_to be_valid</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="48">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="49">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="50">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="51">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">RSpec.describe Book, type: :model do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="52">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  subject do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="2" data-linenumber="53">
+            <span class="hits">2</span>
+            
+
+            
+
+            <code class="ruby">    described_class.new(title: &#39;harry potter&#39;, author: &#39;Kiran&#39;, price: 9.99, published_date: 2007)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="54">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="55">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="56">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  it &#39;is valid with valid published date&#39; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="57">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(subject).to be_valid</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="58">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="59">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="60">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  it &#39;is not valid without a published date&#39; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="61">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    subject.published_date = nil</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="62">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(subject).not_to be_valid</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="63">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="64">
             
             
 
